@@ -1,0 +1,158 @@
+* {
+    border-radius: 0 !important;
+}
+
+/* =====================================================================
+                            NAV STYLES
+   =================================================================== */
+#nameStyle {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    margin-left: -60px;
+}
+
+#myName {
+    color: #fff;
+    margin-left: 55px;
+    background-color: darkcyan;
+}
+
+#myName:hover {
+    color: darkcyan;
+    background-color: #f8f8f8;
+}
+
+.headerBorder {
+    border-bottom: 2px solid #cccccc;
+}
+
+body {
+  padding-top: 50px;
+}
+
+/* =====================================================================
+                               BODY / FOOTER STYLES
+  =================================================================== */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    color: #777;
+    background-image: url(../img/waves.png);
+}
+
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #4aaaa5!important;
+}
+
+h2, h3 {
+  padding-bottom: 20px;
+  font-size: 30px;
+  line-height: 49px;
+  border-bottom: 3px solid #ddd;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 20px;
+}
+
+#bodyBorder{
+    border-color: #ddd !important;
+}
+
+#customText {
+    font-size: 1.5em;
+}
+
+.main-content {
+    margin-top: 40px; /* Maybe delete */
+}
+
+#enzoIcon {
+    max-width: 150px;
+    max-height: 150px;
+    float: left;
+}
+
+@media screen and (max-width: 550px) {
+    #enzoIcon {
+        float: none;
+    }
+}
+
+#aboutMe {
+    padding-top: 1em;
+    background-color: #fff;
+}
+
+/* Sidebar */
+
+#socialSidebar{
+    background-color: #fff;
+    text-align: center;
+}
+
+#panelPadding {
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+
+
+h3 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
+    text-align: center!important;
+}
+
+.social {
+    width: 62px;
+    height: 62px;
+    text-align: center;
+}
+
+
+#socialIcons {
+    display: inline !important;
+}
+
+.footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    padding: 30px 0;
+    font-size: 12px;
+    color: #fff;
+    color: #ccc;
+    text-align: center;
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+}
+
+#footerText {
+    margin-top: 10px;
+}
+
+/* =====================================================================
+                                 PORTFOLIO
+=================================================================== */
+
+
+/* =====================================================================
+                               CONTACT
+ =================================================================== */
