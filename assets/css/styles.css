@@ -5,6 +5,10 @@
 /* =====================================================================
                             NAV STYLES
    =================================================================== */
+#navStyle {
+    border-bottom: 2px solid #ccc;
+}
+
 #nameStyle {
     font-family: Georgia, Times, "Times New Roman", serif;
     margin-left: -60px;
@@ -169,10 +173,15 @@ h3 {
   height: 100%;
 }
 
-.thumbNailStyle {
+.thumbNailPadding {
     padding: 20px 25px 20px 25px;
 }
 
+.labelStyle {
+    background-color: darkcyan;
+    text-align: center;
+    color: #fff !important;
+}
 
 
 /* =====================================================================
